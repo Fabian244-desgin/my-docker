@@ -10,7 +10,7 @@ RUN apt-get update && apt-get -y install nginx
 
 
 
-COPY ./web /var/www/htmlL
+COPY index.html /usr/share/nginx/html/
 
 
 
